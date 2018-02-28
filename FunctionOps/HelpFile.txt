@@ -4,6 +4,6 @@ in this part of FunctionOps we would learn about how to make Functions,Declare F
 Then we'll learn about the command line arguments argv,argc.
 we'll also see the need of forward declaration of a function in c language.
 
-Play around with the function calling and there declarations.
+Play around with the function calling and there declarations to learn more....
 
 BEST OF LUCK!! 
