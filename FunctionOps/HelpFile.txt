@@ -1,0 +1,9 @@
+/* Help File */
+
+in this part of FunctionOps we would learn about how to make Functions,Declare Functions in C.
+Then we'll learn about the command line arguments argv,argc.
+we'll also see the need of forward declaration of a function in c language.
+
+Play around with the function calling and there declarations.
+
+BEST OF LUCK!! 
