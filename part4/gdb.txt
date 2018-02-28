@@ -1,0 +1,35 @@
+/* Using Debugger */
+
+If you are a mac user use "lldb" as the debugger.
+But i'll be covering the concepts for linux OS.
+
+type in the command : gdb ./<filename>
+it will open a gdb command prompt.
+
+type in the command in the 'run' in the gdb command line interface.
+
+it will display the details of your ex3.c file.
+and if there is any error in the file it will display that error so that you can debugg your code.
+
+type 'bt' command to get the stack trace of the code present in your ex3.c file.
+
+might be you have not set your debugging symbols in your make file so first either set that in  makefile or type : CFLAGS="-Wall -g" make ex3 in  the terminal after typing quit to come out of the gdb .
+
+/* SETTING THE BREAKPOINT */
+
+inorder to set the break point . After entering into the gdb again after doing line 16. type : "break <option>" to set your break pointer to the specified option . then type: run command.
+
+now type "bt" and you would see some info abt your journey.
+
+type: "step" inorder to move to the next line in the code.
+typing "step" again and agin would take you more inside the printf function once you reach the line containing printf function.
+type "next" to come out of that printf function .
+
+/* EXITING OUT OF THE DEBUGGER */
+
+type in "cont" to come at the end of the code and 
+
+
+FOR MORE INFO REFER TO THE GDB REFERENCE MANUAL.
+
+
